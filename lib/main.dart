@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:video_demo_05/video_player_page.dart';
+import 'package:video_demo_05/video_player_page06.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       // home: MyHomePage(title: 'Flutter Demo Home Page'),
-      home: VideoPlayerPage(),
+      home: VideoPlayerPage06(),
     );
   }
 }
